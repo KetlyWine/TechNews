@@ -91,6 +91,7 @@
 
 .notice-type-3 img {
   width: 30%;
+  height: 11rem;
   object-fit: cover;
   display: block;
   max-width: 100%;
@@ -198,14 +199,10 @@ span {
     grid-template-columns: repeat(2, 1fr);
   }
   .notice-tertiary {
-    grid-template-columns: 1fr;
-    grid-template-rows: 100% 100%;
-  }
-  #primary-section {
-    grid-row: 1;
-  }
-  #secundary-section {
-    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    height: auto;
   }
   .notice-type-3 {
     gap: 0.5rem;
